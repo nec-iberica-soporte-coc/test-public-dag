@@ -64,7 +64,7 @@ default_args = {
 
 # [START instantiate_dag]
 with DAG(
-    'tutorial2',
+    'tutorial-in-submodule',
     default_args=default_args,
     description='Just another simple tutorial DAG',
     schedule_interval=timedelta(days=1),
