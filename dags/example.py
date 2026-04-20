@@ -66,7 +66,7 @@ with DAG(
     'tutorial-in-submodule',
     default_args=default_args,
     description='Just another simple tutorial DAG',
-    schedule_interval=timedelta(days=1),
+    schedule=timedelta(days=1),
     start_date=datetime.now()-timedelta(days=1),
     tags=['example'],
 ) as dag:
